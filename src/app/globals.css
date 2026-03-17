@@ -10,8 +10,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-mono);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-vcr-osd);
+  --font-mono: var(--font-vcr-osd);
   --radius-sm: 0px;
   --radius-md: 0px;
   --radius-lg: 0px;
@@ -38,7 +38,7 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
 }
 
 * {
@@ -58,7 +58,17 @@ a:hover {
 @utility pixel-box {
   border: 2px solid var(--foreground);
   position: relative;
-  background: var(--background);
+  background: var(--foreground);
+  color: var(--background);
+
+  & a {
+    color: var(--background);
+  }
+
+  & a:hover {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
 
   &::before {
     content: '';
