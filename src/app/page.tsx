@@ -11,7 +11,7 @@ export default function Home() {
         </p>
       </section>
 
-      <div className="border border-foreground p-4">
+      <div className="pixel-box p-4">
         <h2 className="text-xl font-bold mb-4 uppercase">Directories</h2>
         <ul className="space-y-2">
           <li>
@@ -27,7 +27,7 @@ export default function Home() {
         </ul>
       </div>
 
-      <div className="border border-foreground p-4">
+      <div className="pixel-box p-4">
         <h2 className="text-xl font-bold mb-4 uppercase">System Info</h2>
         <pre className="text-sm">
           USER: guest<br />

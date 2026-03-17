@@ -26,7 +26,7 @@ export default function Portfolio() {
         </p>
       </section>
 
-      <div className="border border-foreground overflow-x-auto">
+      <div className="pixel-box overflow-x-auto">
         <table className="w-full text-left border-collapse">
           <thead>
             <tr className="border-b border-foreground bg-foreground text-background">

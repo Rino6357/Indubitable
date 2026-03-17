@@ -17,7 +17,7 @@ export default function Writing() {
       </section>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <section className="border border-foreground p-4">
+        <section className="pixel-box p-4">
           <h2 className="text-xl font-bold mb-4 border-b border-foreground pb-2 uppercase">Poems</h2>
           <ul className="space-y-2">
             {poems.map(({ slug, date, title }) => (
@@ -30,7 +30,7 @@ export default function Writing() {
           </ul>
         </section>
 
-        <section className="border border-foreground p-4">
+        <section className="pixel-box p-4">
           <h2 className="text-xl font-bold mb-4 border-b border-foreground pb-2 uppercase">Stories</h2>
           <ul className="space-y-2">
             {stories.map(({ slug, date, title }) => (

@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistMono.variable} antialiased min-h-screen flex flex-col p-4 md:p-8`}
+        className={`${geistMono.variable} min-h-screen flex flex-col p-4 md:p-8`}
       >
         <header className="mb-8">
           <Breadcrumbs />
