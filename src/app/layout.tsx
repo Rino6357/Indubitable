@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const vcrOSD = localFont({
+  src: "./fonts/VCR_OSD_MONO_1.001.ttf",
+  variable: "--font-vcr-osd",
 });
 
 export const metadata: Metadata = {
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistMono.variable} min-h-screen flex flex-col p-4 md:p-8 gap-8`}
+        className={`${vcrOSD.className} ${vcrOSD.variable} min-h-screen flex flex-col p-4 md:p-8 gap-8`}
       >
         <header className="pixel-box p-4">
           <Breadcrumbs />
