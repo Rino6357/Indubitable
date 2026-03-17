@@ -5,7 +5,7 @@ import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 const vcrOSD = localFont({
-  src: "../../public/fonts/VCR_OSD_MONO_1.001.ttf",
+  src: "./fonts/VCR_OSD_MONO_1.001.ttf",
   variable: "--font-vcr-osd",
 });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${vcrOSD.variable} min-h-screen flex flex-col p-4 md:p-8 gap-8`}
+        className={`${vcrOSD.className} ${vcrOSD.variable} min-h-screen flex flex-col p-4 md:p-8 gap-8`}
       >
         <header className="pixel-box p-4">
           <Breadcrumbs />
