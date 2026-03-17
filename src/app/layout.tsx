@@ -22,15 +22,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistMono.variable} min-h-screen flex flex-col p-4 md:p-8`}
+        className={`${geistMono.variable} min-h-screen flex flex-col p-4 md:p-8 gap-8`}
       >
-        <header className="mb-8">
+        <header className="pixel-box p-4">
           <Breadcrumbs />
           <nav className="flex gap-4 text-sm">
-            <Link href="/portfolio" className="hover:bg-foreground hover:text-background px-1">
+            <Link href="/portfolio" className="hover:bg-background hover:text-foreground px-1">
               [PORTFOLIO]
             </Link>
-            <Link href="/writing" className="hover:bg-foreground hover:text-background px-1">
+            <Link href="/writing" className="hover:bg-background hover:text-foreground px-1">
               [WRITING]
             </Link>
           </nav>
@@ -40,7 +40,7 @@ export default function RootLayout({
           {children}
         </main>
 
-        <footer className="mt-16 border-t border-foreground pt-4 text-xs">
+        <footer className="pixel-box p-4 text-xs">
           <p>
             &copy; {new Date().getFullYear()} - NO TRACKING - NO JS (ALMOST) - BUILT WITH NEXT.JS
           </p>

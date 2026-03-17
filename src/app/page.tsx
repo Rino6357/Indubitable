@@ -14,12 +14,12 @@ export default function Home() {
         <h2 className="text-xl font-bold mb-4 uppercase">Directories</h2>
         <ul className="space-y-2">
           <li>
-            <Link href="/portfolio" className="hover:bg-foreground hover:text-background px-1">
+            <Link href="/portfolio" className="hover:bg-background hover:text-foreground px-1">
               dir  portfolio/
             </Link>
           </li>
           <li>
-            <Link href="/writing" className="hover:bg-foreground hover:text-background px-1">
+            <Link href="/writing" className="hover:bg-background hover:text-foreground px-1">
               dir  writing/
             </Link>
           </li>
