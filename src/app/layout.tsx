@@ -10,7 +10,7 @@ const vcrOSD = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "My Creative Space",
+  title: "Baker Alshaif",
   description: "A portfolio of work and a collection of poems and stories.",
 };
 
