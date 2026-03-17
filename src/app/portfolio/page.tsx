@@ -18,7 +18,7 @@ export default function Portfolio() {
           <Link
             key={project.slug}
             href={`/portfolio/${project.slug}`}
-            className="pixel-box p-4 block hover:bg-background hover:text-foreground group no-underline text-white"
+            className="pixel-box p-4 block hover:bg-background hover:text-foreground group no-underline"
           >
             <div className="space-y-2">
               <h2 className="text-xl font-bold uppercase group-hover:bg-foreground group-hover:text-background inline-block px-1">
