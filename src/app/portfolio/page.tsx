@@ -37,7 +37,7 @@ export default function Portfolio() {
           </thead>
           <tbody>
             {projects.map((project, index) => (
-              <tr key={index} className="border-b border-foreground last:border-0 hover:bg-foreground hover:text-background group">
+              <tr key={index} className="border-b border-foreground last:border-0 hover:bg-background hover:text-foreground group">
                 <td className="p-2 align-top font-bold text-sm">{project.title}</td>
                 <td className="p-2 align-top text-sm">{project.description}</td>
                 <td className="p-2 align-top">
