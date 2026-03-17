@@ -18,34 +18,44 @@ export default function Portfolio() {
   ];
 
   return (
-    <div className="space-y-12">
+    <div className="space-y-8">
       <section className="space-y-4">
-        <h1 className="text-4xl font-bold tracking-tight">Portfolio</h1>
-        <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl">
-          A selection of projects I've worked on recently.
+        <h1 className="text-3xl font-bold uppercase">Portfolio</h1>
+        <p className="max-w-2xl">
+          Catalog of completed projects and technical experiments.
         </p>
       </section>
 
-      <div className="grid grid-cols-1 gap-12">
-        {projects.map((project, index) => (
-          <div key={index} className="group relative flex flex-col items-start">
-            <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
-            <div className="flex flex-wrap gap-2 mb-4">
-              {project.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="px-2 py-1 bg-zinc-100 dark:bg-zinc-800 text-xs font-medium rounded-md"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-            <p className="text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
-              {project.description}
-            </p>
-            <div className="h-px w-full bg-zinc-200 dark:bg-zinc-800 mt-4" />
-          </div>
-        ))}
+      <div className="border border-foreground overflow-x-auto">
+        <table className="w-full text-left border-collapse">
+          <thead>
+            <tr className="border-b border-foreground bg-foreground text-background">
+              <th className="p-2 font-bold uppercase text-xs">Title</th>
+              <th className="p-2 font-bold uppercase text-xs">Description</th>
+              <th className="p-2 font-bold uppercase text-xs">Tags</th>
+            </tr>
+          </thead>
+          <tbody>
+            {projects.map((project, index) => (
+              <tr key={index} className="border-b border-foreground last:border-0 hover:bg-foreground hover:text-background group">
+                <td className="p-2 align-top font-bold text-sm">{project.title}</td>
+                <td className="p-2 align-top text-sm">{project.description}</td>
+                <td className="p-2 align-top">
+                  <div className="flex flex-wrap gap-1">
+                    {project.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="px-1 border border-foreground text-[10px] font-medium group-hover:border-background"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );
