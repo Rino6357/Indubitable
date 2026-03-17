@@ -16,7 +16,7 @@ export interface PostData {
 
 export function getAllPostSlugs() {
   const folders = ['poems', 'stories'];
-  const paths: { params: { slug: string } }[] = [];
+  const paths: { params: { category: string; slug: string } }[] = [];
 
   folders.forEach((folder) => {
     const fullPath = path.join(contentDirectory, folder);
@@ -25,6 +25,7 @@ export function getAllPostSlugs() {
         fileNames.forEach((fileName) => {
             paths.push({
                 params: {
+                    category: folder,
                     slug: fileName.replace(/\.md$/, ''),
                 },
             });
@@ -61,8 +62,8 @@ export function getSortedPostsData() {
   return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export async function getPostData(slug: string) {
-  const folders = ['poems', 'stories'];
+export async function getPostData(slug: string, category?: string) {
+  const folders = category ? [category] : ['poems', 'stories'];
   let fullPath = '';
 
   for (const folder of folders) {

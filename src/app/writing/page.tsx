@@ -1,12 +1,6 @@
 import Link from 'next/link';
-import { getSortedPostsData } from '@/lib/posts';
 
 export default function Writing() {
-  const allPostsData = getSortedPostsData();
-
-  const poems = allPostsData.filter(post => post.category === 'poem');
-  const stories = allPostsData.filter(post => post.category === 'story');
-
   return (
     <div className="space-y-12">
       <section className="space-y-4">
@@ -19,28 +13,18 @@ export default function Writing() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <section className="pixel-box p-4">
           <h2 className="text-xl font-bold mb-4 border-b border-foreground pb-2 uppercase">Poems</h2>
-          <ul className="space-y-2">
-            {poems.map(({ slug, date, title }) => (
-              <li key={slug}>
-                <Link href={`/writing/${slug}`} className="block hover:bg-foreground hover:text-background px-1 text-sm">
-                  {date} - {title}.txt
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <p className="text-sm mb-4">View a collection of poetic works.</p>
+          <Link href="/writing/poems" className="inline-block hover:bg-foreground hover:text-background px-1 text-sm font-bold">
+            [ OPEN DIRECTORY ]
+          </Link>
         </section>
 
         <section className="pixel-box p-4">
           <h2 className="text-xl font-bold mb-4 border-b border-foreground pb-2 uppercase">Stories</h2>
-          <ul className="space-y-2">
-            {stories.map(({ slug, date, title }) => (
-              <li key={slug}>
-                <Link href={`/writing/${slug}`} className="block hover:bg-foreground hover:text-background px-1 text-sm">
-                  {date} - {title}.txt
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <p className="text-sm mb-4">Explore short stories and narratives.</p>
+          <Link href="/writing/stories" className="inline-block hover:bg-foreground hover:text-background px-1 text-sm font-bold">
+            [ OPEN DIRECTORY ]
+          </Link>
         </section>
       </div>
     </div>
