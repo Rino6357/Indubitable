@@ -9,7 +9,7 @@ export default function Breadcrumbs() {
 
   return (
     <div className="text-sm font-mono mb-8">
-      <Link href="/" className="hover:bg-foreground hover:text-background px-1">~</Link>
+      <Link href="/" className="hover:bg-foreground hover:text-background px-1">CD:</Link>
       {pathSegments.map((segment, index) => {
         const href = `/${pathSegments.slice(0, index + 1).join('/')}`;
         return (
