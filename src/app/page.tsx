@@ -4,10 +4,9 @@ export default function Home() {
   return (
     <div className="space-y-8">
       <section className="space-y-4">
-        <h1 className="text-3xl font-bold">INDEX</h1>
+        <h1 className="text-3xl font-bold">HOME DIRECTORY</h1>
         <p className="max-w-2xl leading-relaxed">
-          Welcome to this repository. This site serves as a minimalist archive for
-          professional work and creative writing.
+          Hi, I’m Baker Alshaif. I enjoy a well written story and I like sandbox games. Oh, and I’m an ECE student at Cornell University.
         </p>
       </section>
 
@@ -31,7 +30,7 @@ export default function Home() {
         <h2 className="text-xl font-bold mb-4 uppercase">System Info</h2>
         <pre className="text-sm">
           USER: guest<br />
-          HOST: creative-space<br />
+          HOST: indubitably<br />
           STATUS: active<br />
           VERSION: 1.0.0
         </pre>
