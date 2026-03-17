@@ -22,7 +22,7 @@ export default async function Post({ params }: { params: Promise<{ category: str
 
   return (
     <article className="max-w-3xl space-y-8">
-      <header className="pixel-box p-4 border-none! text-white">
+      <header className="pixel-box p-4 border-none!">
         <div className="text-xs uppercase font-bold mb-2">
           File: {postData.title}.txt
         </div>
@@ -32,7 +32,7 @@ export default async function Post({ params }: { params: Promise<{ category: str
         </div>
       </header>
 
-      <div className="pixel-box p-6 text-white">
+      <div className="pixel-box p-6">
         <div
           className="prose max-w-none
             prose-headings:font-bold prose-headings:uppercase

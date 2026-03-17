@@ -11,7 +11,7 @@ export default function Writing() {
       </section>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <section className="pixel-box p-4 text-white">
+        <section className="pixel-box p-4">
           <h2 className="text-xl font-bold mb-4 border-b border-foreground pb-2 uppercase">Poems</h2>
           <p className="text-sm mb-4">View a collection of poetic works.</p>
           <Link href="/writing/poems" className="inline-block hover:bg-foreground hover:text-background px-1 text-sm font-bold">
@@ -19,7 +19,7 @@ export default function Writing() {
           </Link>
         </section>
 
-        <section className="pixel-box p-4 text-white">
+        <section className="pixel-box p-4">
           <h2 className="text-xl font-bold mb-4 border-b border-foreground pb-2 uppercase">Stories</h2>
           <p className="text-sm mb-4">Explore short stories and narratives.</p>
           <Link href="/writing/stories" className="inline-block hover:bg-foreground hover:text-background px-1 text-sm font-bold">

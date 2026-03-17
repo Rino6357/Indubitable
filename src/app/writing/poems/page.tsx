@@ -7,14 +7,14 @@ export default function Poems() {
 
   return (
     <div className="space-y-8">
-      <section className="space-y-4">
+      <section className="pixel-box p-4">
         <h1 className="text-3xl font-bold uppercase">Poems</h1>
         <p className="max-w-2xl">
           A collection of poems.
         </p>
       </section>
 
-      <section className="pixel-box p-4 text-white">
+      <section className="pixel-box p-4">
         <ul className="space-y-2">
           {poems.map(({ slug, date, title }) => (
             <li key={slug}>
