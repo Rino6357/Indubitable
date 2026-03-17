@@ -32,9 +32,9 @@ export default async function ProjectPage({
         <p className="text-sm italic">Released: {projectData.date}</p>
       </header>
 
-      <div className="pixel-box p-6 bg-foreground text-background">
+      <div className="pixel-box p-6">
         <div
-          className="prose prose-invert max-w-none
+          className="prose max-w-none
           prose-headings:uppercase prose-headings:font-bold
           prose-p:leading-relaxed"
           dangerouslySetInnerHTML={{ __html: projectData.contentHtml || '' }}

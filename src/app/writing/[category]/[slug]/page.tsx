@@ -34,7 +34,7 @@ export default async function Post({ params }: { params: Promise<{ category: str
 
       <div className="pixel-box p-6">
         <div
-          className="prose prose-zinc prose-invert max-w-none
+          className="prose max-w-none
             prose-headings:font-bold prose-headings:uppercase
             prose-p:leading-relaxed font-mono text-sm"
           dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }}
