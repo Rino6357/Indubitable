@@ -2,11 +2,11 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  --background: #905df5;
+  --background: #3b30d9;
   --foreground: #000000;
   --border: #000000;
   --pixel-bg: #000000;
-  --pixel-text: #905df5;
+  --pixel-text: #3b30d9;
 
   /* Tailwind Typography Overrides */
   --tw-prose-body: var(--foreground);
@@ -29,8 +29,8 @@
 
 .dark {
   --background: #000000;
-  --foreground: #905df5;
-  --border: #905df5;
+  --foreground: #3b30d9;
+  --border: #3b30d9;
 }
 
 @theme inline {
