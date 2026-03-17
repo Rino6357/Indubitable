@@ -1,12 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -26,30 +22,28 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${geistMono.variable} antialiased min-h-screen flex flex-col p-4 md:p-8`}
       >
-        <header className="border-b border-gray-200 dark:border-zinc-800">
-          <nav className="max-w-4xl mx-auto px-4 py-6 flex justify-between items-center">
-            <Link href="/" className="text-xl font-bold tracking-tighter">
-              CREATIVE SPACE
+        <header className="mb-8">
+          <Breadcrumbs />
+          <nav className="flex gap-4 text-sm">
+            <Link href="/portfolio" className="hover:bg-foreground hover:text-background px-1">
+              [PORTFOLIO]
             </Link>
-            <div className="space-x-8 text-sm font-medium">
-              <Link href="/portfolio" className="hover:text-zinc-600 dark:hover:text-zinc-400">
-                Portfolio
-              </Link>
-              <Link href="/writing" className="hover:text-zinc-600 dark:hover:text-zinc-400">
-                Writing
-              </Link>
-            </div>
+            <Link href="/writing" className="hover:bg-foreground hover:text-background px-1">
+              [WRITING]
+            </Link>
           </nav>
         </header>
 
-        <main className="flex-grow max-w-4xl mx-auto px-4 py-12 w-full">
+        <main className="flex-grow max-w-4xl w-full">
           {children}
         </main>
 
-        <footer className="border-t border-gray-200 dark:border-zinc-800 py-8 text-center text-sm text-zinc-500">
-          <p>© {new Date().getFullYear()} My Creative Space. Built with Next.js.</p>
+        <footer className="mt-16 border-t border-foreground pt-4 text-xs">
+          <p>
+            &copy; {new Date().getFullYear()} - NO TRACKING - NO JS (ALMOST) - BUILT WITH NEXT.JS
+          </p>
         </footer>
       </body>
     </html>

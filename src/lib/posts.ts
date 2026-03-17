@@ -16,7 +16,7 @@ export interface PostData {
 
 export function getAllPostSlugs() {
   const folders = ['poems', 'stories'];
-  let paths: { params: { slug: string } }[] = [];
+  const paths: { params: { slug: string } }[] = [];
 
   folders.forEach((folder) => {
     const fullPath = path.join(contentDirectory, folder);
