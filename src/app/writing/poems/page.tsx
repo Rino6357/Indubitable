@@ -14,7 +14,7 @@ export default function Poems() {
         </p>
       </section>
 
-      <section className="pixel-box p-4">
+      <section className="pixel-box p-4 text-white">
         <ul className="space-y-2">
           {poems.map(({ slug, date, title }) => (
             <li key={slug}>

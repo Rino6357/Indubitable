@@ -32,7 +32,7 @@ export default async function ProjectPage({
         <p className="text-sm italic">Released: {projectData.date}</p>
       </header>
 
-      <div className="pixel-box p-6">
+      <div className="pixel-box p-6 text-white">
         <div
           className="prose max-w-none
           prose-headings:uppercase prose-headings:font-bold
