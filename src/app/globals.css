@@ -2,7 +2,7 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  --background: #ffffff;
+  --background: #905df5;
   --foreground: #000000;
   --border: #000000;
 }
@@ -22,10 +22,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
+    --background: #4a2b8c;
     --foreground: #ffffff;
     --border: #ffffff;
   }
+}
+
+html {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -46,4 +53,34 @@ a {
 a:hover {
   background-color: var(--foreground);
   color: var(--background);
+}
+
+@utility pixel-box {
+  border: 2px solid var(--foreground);
+  position: relative;
+  background: var(--background);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: 2px;
+    right: 2px;
+    border-left: 2px solid var(--foreground);
+    border-right: 2px solid var(--foreground);
+    pointer-events: none;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: -4px;
+    right: -4px;
+    border-top: 2px solid var(--foreground);
+    border-bottom: 2px solid var(--foreground);
+    pointer-events: none;
+  }
 }
