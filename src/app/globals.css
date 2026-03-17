@@ -5,6 +5,8 @@
   --background: #905df5;
   --foreground: #000000;
   --border: #000000;
+  --pixel-bg: #000000;
+  --pixel-text: #905df5;
 }
 
 @theme inline {
@@ -51,23 +53,23 @@ a {
 }
 
 a:hover {
-  background-color: var(--foreground);
-  color: var(--background);
+  background-color: var(--pixel-bg);
+  color: var(--pixel-text);
 }
 
 @utility pixel-box {
-  border: 2px solid var(--foreground);
+  border: 2px solid var(--pixel-bg);
   position: relative;
-  background: var(--foreground);
-  color: var(--background);
+  background: var(--pixel-bg);
+  color: var(--pixel-text);
 
   & a {
-    color: var(--background);
+    color: var(--pixel-text);
   }
 
   & a:hover {
-    background-color: var(--background);
-    color: var(--foreground);
+    background-color: var(--pixel-text);
+    color: var(--pixel-bg);
   }
 
   &::before {
@@ -77,8 +79,8 @@ a:hover {
     bottom: -4px;
     left: 2px;
     right: 2px;
-    border-left: 2px solid var(--foreground);
-    border-right: 2px solid var(--foreground);
+    border-left: 2px solid var(--pixel-bg);
+    border-right: 2px solid var(--pixel-bg);
     pointer-events: none;
   }
 
@@ -89,8 +91,8 @@ a:hover {
     bottom: 2px;
     left: -4px;
     right: -4px;
-    border-top: 2px solid var(--foreground);
-    border-bottom: 2px solid var(--foreground);
+    border-top: 2px solid var(--pixel-bg);
+    border-bottom: 2px solid var(--pixel-bg);
     pointer-events: none;
   }
 }
