@@ -7,6 +7,7 @@
   --border: #000000;
   --pixel-bg: #000000;
   --pixel-text: #905df5;
+  --pixel-border: #757575;
 
   /* Tailwind Typography Overrides */
   --tw-prose-body: var(--foreground);
@@ -74,7 +75,7 @@ a:hover {
 }
 
 @utility pixel-box {
-  border: 2px solid var(--pixel-bg);
+  border: 2px solid var(--pixel-border);
   position: relative;
   background: var(--pixel-bg);
   color: var(--pixel-text);
@@ -140,8 +141,8 @@ a:hover {
     bottom: -4px;
     left: 2px;
     right: 2px;
-    border-left: 2px solid var(--pixel-bg);
-    border-right: 2px solid var(--pixel-bg);
+    border-left: 2px solid var(--pixel-border);
+    border-right: 2px solid var(--pixel-border);
     pointer-events: none;
   }
 
@@ -152,8 +153,8 @@ a:hover {
     bottom: 2px;
     left: -4px;
     right: -4px;
-    border-top: 2px solid var(--pixel-bg);
-    border-bottom: 2px solid var(--pixel-bg);
+    border-top: 2px solid var(--pixel-border);
+    border-bottom: 2px solid var(--pixel-border);
     pointer-events: none;
   }
 }
