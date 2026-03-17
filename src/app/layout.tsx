@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist_Mono } from "next/font/google";
+import { Geist_Mono, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -7,6 +7,12 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const pressStart2P = Press_Start_2P({
+  variable: "--font-press-start-2p",
+  subsets: ["latin"],
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -22,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistMono.variable} min-h-screen flex flex-col p-4 md:p-8`}
+        className={`${geistMono.variable} ${pressStart2P.variable} min-h-screen flex flex-col p-4 md:p-8`}
       >
         <header className="mb-8">
           <Breadcrumbs />
