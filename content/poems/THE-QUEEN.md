@@ -20,7 +20,6 @@ Born of no growth nor time,
 An anomaly, just laying about.
 
 At my doorstep, I found this treasure,
-
 Sent by The Queen at her leisure,
 Yet all I could utter,
 Was "what have I done to receive the pleasure?"
