@@ -44,17 +44,22 @@ export function getSortedPostsData() {
     const fullPath = path.join(contentDirectory, folder);
     if (fs.existsSync(fullPath)) {
         const fileNames = fs.readdirSync(fullPath);
-        const folderPostsData = fileNames.map((fileName) => {
-          const slug = fileName.replace(/\.md$/, '');
-          const filePath = path.join(fullPath, fileName);
-          const fileContents = fs.readFileSync(filePath, 'utf8');
-          const matterResult = matter(fileContents);
+        const folderPostsData = fileNames
+          .filter((fileName) => fileName.endsWith('.md'))
+          .map((fileName) => {
+            const slug = fileName.replace(/\.md$/, '');
+            const filePath = path.join(fullPath, fileName);
+            const fileContents = fs.readFileSync(filePath, 'utf8');
+            const matterResult = matter(fileContents);
+            const data = matterResult.data as { title?: string; date?: string; category?: string };
 
-          return {
-            slug,
-            ...(matterResult.data as { title: string; date: string; category: string }),
-          };
-        });
+            return {
+              slug,
+              title: data.title || slug.replace(/-/g, ' '),
+              date: data.date || new Date().toISOString().split('T')[0],
+              category: data.category || (folder === 'poems' ? 'poem' : 'story'),
+            };
+          });
         allPostsData = allPostsData.concat(folderPostsData);
     }
   });
@@ -80,6 +85,7 @@ export async function getPostData(slug: string, category?: string) {
 
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const matterResult = matter(fileContents);
+  const data = matterResult.data as { title?: string; date?: string; category?: string };
 
   const processedContent = await remark()
     .use(html)
@@ -89,6 +95,8 @@ export async function getPostData(slug: string, category?: string) {
   return {
     slug,
     contentHtml,
-    ...(matterResult.data as { title: string; date: string; category: string }),
+    title: data.title || slug.replace(/-/g, ' '),
+    date: data.date || new Date().toISOString().split('T')[0],
+    category: data.category || (category === 'poems' || category === 'poem' ? 'poem' : 'story'),
   };
 }
