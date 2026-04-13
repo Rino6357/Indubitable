@@ -1,6 +1,6 @@
 ---
 title: "Infection"
-date: ""
+date: "2026-4-13"
 category: "poem"
 ---
 
