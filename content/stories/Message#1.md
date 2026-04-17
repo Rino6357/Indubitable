@@ -1,5 +1,5 @@
 ---
-title: "Message #1"
+title: "Message_#1"
 date: ""
 category: "story"
 ---
