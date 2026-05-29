@@ -1,6 +1,6 @@
 ---
 title: "Message #1"
-date: ""
+date: "2026-04-17"
 category: "story"
 ---
 
