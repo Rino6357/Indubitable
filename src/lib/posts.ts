@@ -51,12 +51,19 @@ export function getSortedPostsData() {
             const filePath = path.join(fullPath, fileName);
             const fileContents = fs.readFileSync(filePath, 'utf8');
             const matterResult = matter(fileContents);
-            const data = matterResult.data as { title?: string; date?: string; category?: string };
+            const data = matterResult.data as { title?: string; date?: string | Date; category?: string };
+
+            let date = '';
+            if (data.date instanceof Date) {
+              date = data.date.toISOString().split('T')[0];
+            } else {
+              date = data.date || new Date().toISOString().split('T')[0];
+            }
 
             return {
               slug,
               title: data.title || slug.replace(/-/g, ' '),
-              date: data.date || new Date().toISOString().split('T')[0],
+              date,
               category: data.category || (folder === 'poems' ? 'poem' : 'story'),
             };
           });
@@ -85,18 +92,25 @@ export async function getPostData(slug: string, category?: string) {
 
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const matterResult = matter(fileContents);
-  const data = matterResult.data as { title?: string; date?: string; category?: string };
+  const data = matterResult.data as { title?: string; date?: string | Date; category?: string };
 
   const processedContent = await remark()
     .use(html)
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
+  let date = '';
+  if (data.date instanceof Date) {
+    date = data.date.toISOString().split('T')[0];
+  } else {
+    date = data.date || new Date().toISOString().split('T')[0];
+  }
+
   return {
     slug,
     contentHtml,
     title: data.title || slug.replace(/-/g, ' '),
-    date: data.date || new Date().toISOString().split('T')[0],
+    date,
     category: data.category || (category === 'poems' || category === 'poem' ? 'poem' : 'story'),
   };
 }

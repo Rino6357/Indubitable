@@ -39,10 +39,19 @@ export function getSortedProjectsData(): ProjectData[] {
     const filePath = path.join(projectsDirectory, fileName);
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const matterResult = matter(fileContents);
+    const data = matterResult.data as { title: string; description: string; tags: string[]; date: string | Date };
+
+    let date = '';
+    if (data.date instanceof Date) {
+      date = data.date.toISOString().split('T')[0];
+    } else {
+      date = data.date;
+    }
 
     return {
       slug,
-      ...(matterResult.data as { title: string; description: string; tags: string[]; date: string }),
+      ...data,
+      date,
     };
   });
 
@@ -57,15 +66,24 @@ export async function getProjectData(slug: string) {
 
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const matterResult = matter(fileContents);
+  const data = matterResult.data as { title: string; description: string; tags: string[]; date: string | Date };
 
   const processedContent = await remark()
     .use(html)
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
+  let date = '';
+  if (data.date instanceof Date) {
+    date = data.date.toISOString().split('T')[0];
+  } else {
+    date = data.date;
+  }
+
   return {
     slug,
     contentHtml,
-    ...(matterResult.data as { title: string; description: string; tags: string[]; date: string }),
+    ...data,
+    date,
   };
 }

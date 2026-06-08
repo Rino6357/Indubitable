@@ -1,6 +1,6 @@
 ---
 title: "Chapter 1: The Stump"
-date: 2026-06-08
+date: "2026-06-08"
 category: "story"
 ---
 
