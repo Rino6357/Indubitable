@@ -6,63 +6,63 @@ category: "story"
 
 Chapter 2: The Hidden Chamber
 
-	Jorrin approached the door slowly, balancing the climbing stick against his shoulder. It was strangely quiet. Usually Odo could be heard from outside, humming while he worked or cursing at a barrel that refused to move. But now there was nothing but the sound of wind.
+Jorrin approached the door slowly, balancing the climbing stick against his shoulder. It was strangely quiet. Usually Odo could be heard from outside, humming while he worked or cursing at a barrel that refused to move. But now there was nothing but the sound of wind.
 He pushed the door open. No one seemed to be inside. There were two mugs at the bar, neither of them empty. 
 Jorrin frowned. “Uncle?”
 
 No answer. The smell of fermenting grain drifted from the back room. He stepped through the gate and stopped. Voices.
 They were faint, and seemed to come from below. The cellar. Setting his sack near the gate, he followed the source of the noise.
 
-	“...plan to keep this secret forever?” A woman asked.
+“...plan to keep this secret forever?” A woman asked.
 
-	Mary.
+Mary.
 
-	Jorrin froze.
+Jorrin froze.
 
-	“...you want him to end up like them?” Odo replied.
+“...you want him to end up like them?” Odo replied.
 
-	Silence. End up like who? Jorrin crept toward the cellar stairs, the wood groaning beneath his weight. He winced and stopped, listening for anything else. Could they have been speaking about him?
+Silence. End up like who? Jorrin crept toward the cellar stairs, the wood groaning beneath his weight. He winced and stopped, listening for anything else. Could they have been speaking about him?
 
-	“You cannot make that decision for him. You know what his father wanted.” Mary said.
+“You cannot make that decision for him. You know what his father wanted.” Mary said.
 
-	The words rang in his head like a bell. His father? He tightened his grip on the railing. What had his father wanted? Odo never did like speaking to him about his parents. Whenever Jorrin would ask, the answer would always be the same.
+The words rang in his head like a bell. His father? He tightened his grip on the railing. What had his father wanted? Odo never did like speaking to him about his parents. Whenever Jorrin would ask, the answer would always be the same.
 
-	His parents had died during a breach in the great wall. They died in the rescue of people at the lowest terraces. They died to the beasts from outside, but they had died honorably and heroically. It was simple. They were gone.
+His parents had died during a breach in the great wall. They died in the rescue of people at the lowest terraces. They died to the beasts from outside, but they had died honorably and heroically. It was simple. They were gone.
 
-	“...he deserves to know,” Mary said quietly.
+“...he deserves to know,” Mary said quietly.
 
-	“And if he goes looking?” Odo snapped. “You want me to lose another?!”
+“And if he goes looking?” Odo snapped. “You want me to lose another?!”
 
-	The cellar went quiet.
+The cellar went quiet.
 
-	“Don’t you understand…?” His uncle said, his voice cracking. “I had to bury his father… I cannot go through that again.”
+“Don’t you understand…?” His uncle said, his voice cracking. “I had to bury his father… I cannot go through that again.”
 
-	“Odo…” Mary said, quietly.
+“Odo…” Mary said, quietly.
 
-	Jorrin’s heartbeat thundered in his ear. Go looking where? What was there to look for?
+Jorrin’s heartbeat thundered in his ear. Go looking where? What was there to look for?
 
-	A scrape echoed from somewhere deeper in the cellar. Jorrin froze. Wood dragging against stone. The voices went silent, then came a dull thud, followed by the sound of shifting stones.
+A scrape echoed from somewhere deeper in the cellar. Jorrin froze. Wood dragging against stone. The voices went silent, then came a dull thud, followed by the sound of shifting stones.
 
-	He should leave. Odo’s conversations were none of his business. No. His parents were absolutely his business. His parents could not be more of his business! He took another step down the stairs.
-	The sound of shifting stones grew louder.
-	Barrels lined the walls in neat rows, their shadows stretching across the dirt floor. The smell of oak and grain hung heavy in the air. Sunlight spilled from the stairwell behind him, but it faded quickly among the casks.
-	Crouching behind a stack of barrels, Jorrin peaked carefully. Odo and Mary stood near where the far wall should have been, staring at an opening. Part of the stone foundation had swung inward, revealing a narrow passage descending into darkness.
-	Odo turned to Mary despondently, but her gaze drifted toward the entrance to the stairwell, and then past Jorrin’s barrel. For a second there, he thought she was smiling. She looked away and entered the passageway.
-	After they both had entered, Jorrin sneaked closer to the opening, straining his ears.
+He should leave. Odo’s conversations were none of his business. No. His parents were absolutely his business. His parents could not be more of his business! He took another step down the stairs.
+The sound of shifting stones grew louder.
+Barrels lined the walls in neat rows, their shadows stretching across the dirt floor. The smell of oak and grain hung heavy in the air. Sunlight spilled from the stairwell behind him, but it faded quickly among the casks.
+Crouching behind a stack of barrels, Jorrin peaked carefully. Odo and Mary stood near where the far wall should have been, staring at an opening. Part of the stone foundation had swung inward, revealing a narrow passage descending into darkness.
+Odo turned to Mary despondently, but her gaze drifted toward the entrance to the stairwell, and then past Jorrin’s barrel. For a second there, he thought she was smiling. She looked away and entered the passageway.
+After they both had entered, Jorrin sneaked closer to the opening, straining his ears.
  
-	“I was hoping that I’d never have to see this place again.” Odo sighed.
+“I was hoping that I’d never have to see this place again.” Odo sighed.
 
-	“You can’t run from it forever, Odo.” Mary responded, going through what sounded like a pile of papers. She paused. “We cannot run from it forever.”
+“You can’t run from it forever, Odo.” Mary responded, going through what sounded like a pile of papers. She paused. “We cannot run from it forever.”
 
-	“...I’m sorry, Mary. But I can’t do this. I cannot send him to his death.” 
+“...I’m sorry, Mary. But I can’t do this. I cannot send him to his death.” 
 
-	“Why?” Mary said, now sounding exasperated. “Why do you think this is your decision to make?”
+“Why?” Mary said, now sounding exasperated. “Why do you think this is your decision to make?”
 
-	“I raised h–”
+“I raised h–”
 
-	“Do you not remember how much is at stake, Odo? This is larger than you and I.” She declared. “You must let go!”
+“Do you not remember how much is at stake, Odo? This is larger than you and I.” She declared. “You must let go!”
 
-	Jorrin heard a large thud, perhaps a fist slamming onto a table. Then the sound of footsteps approaching him. He scurried quickly behind another barrel, careful to quiet his breathing. Odo stomped out the doorway, his face red. 
+Jorrin heard a large thud, perhaps a fist slamming onto a table. Then the sound of footsteps approaching him. He scurried quickly behind another barrel, careful to quiet his breathing. Odo stomped out the doorway, his face red. 
 Mary followed shortly after, but she paused at the opening and turned. Feeling the wall with her hand, she pushed one of the bricks. The bricks seemed to move on their own to close the dark entrance, accompanied by the sound of shifting stones. The sound grew louder until the opening was fully covered and the wall had returned to how he had always remembered it. Following a large thud, Mary walked slowly out of the cellar and climbed the stairs back into the brewery.
 
 He counted fifty breaths before he dared to move. Crawling from behind the barrel, he made sure the coast was clear. The far wall that the opening had been was usually covered with stacks of barrels. There was something there that Mary must have used to open the entrance. 
