@@ -153,17 +153,23 @@ P.S: Birds are not necessarily birds.
 
 
 He stared at the last sentence. What did that even mean? For a moment, he almost laughed. His father had vanished for years, returned as a pile of letters hidden beneath a brewery, and the first piece of advice he thought was appropriate to leave behind was that birds weren’t birds.
+
 He set the page down, paused, then picked it back up. This was Lucian’s handwriting. His father had been writing. To him!
 Jorrin leaned back in the chair and pressed his palms against his eyes. Suddenly, he felt very tired.
+
 After a moment, he got up and began looking around the room again. He couldn’t bear to read another letter.
 Wandering, he passes journals, surveys, sketches, and eventually stops at a shelf with a wooden plaque that reads “Maps.”
 There seemed to be dozens of folded maps, but the one that caught his eye was the largest one. It was thicker than his arms, and that said a lot. It must have depicted the entirety of Armadon.
+
 Picking it from the shelf, he found a place to unfold it near the center of the chamber. Unfolding it, some of the edges creased against shelves due to the sheer scale of the map.
 Jorrin made some distance to get a better look, and his eyes widened. For several seconds, he could not make sense of what he was seeing. His eyes searched instinctively for familiar landmarks. The lower terraces, the great wall, the summit districts. Anything.
+
 Instead, he found The Saeron Desert, Kaeren-Dara, The Amariath River, and several other unfamiliar names. Thin blue lines snaked across the parchment, branching and rejoining like veins. Forests stretched between them, marked in green ink. Mountain ranges crossed the page in jagged black strokes. 
 He frowned. Where was Armadon?
+
 Stepping closer, he scanned the map again. And again. Then he found it. Near the bottom left edge of the parchment lay a single mountain. 
 A single mountain. Beneath it, written in neat black ink, were the words: The Kingdom of Armadon.
+
 No. He looked around the map desperately. No, there had to be some mistake. Armadon should have been in the center. It should have dominated the parchment!
 His gaze drifted outward. Zul-Bazar, Krag-Marrow, Vael-Khor. Forests, valleys, rivers, and cities. Cities!
 Jorrin’s mouth went dry. His eyes darted back to Armadon, then outward again. He suddenly felt small, and incredibly alone. As though someone had taken the world he knew and revealed it to be a single stone in a field.
