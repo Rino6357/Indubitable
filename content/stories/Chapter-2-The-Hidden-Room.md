@@ -66,27 +66,39 @@ Jorrin heard a large thud, perhaps a fist slamming onto a table. Then the sound 
 Mary followed shortly after, but she paused at the opening and turned. Feeling the wall with her hand, she pushed one of the bricks. The bricks seemed to move on their own to close the dark entrance, accompanied by the sound of shifting stones. The sound grew louder until the opening was fully covered and the wall had returned to how he had always remembered it. Following a large thud, Mary walked slowly out of the cellar and climbed the stairs back into the brewery.
 
 He counted fifty breaths before he dared to move. Crawling from behind the barrel, he made sure the coast was clear. The far wall that the opening had been was usually covered with stacks of barrels. There was something there that Mary must have used to open the entrance. 
+
 Feeling the wall with his hands, he searched for something out of the ordinary. He ran his hands across the bricks for what seemed like forever, and had begun to lose hope, when suddenly he felt a strange pattern on his palm. Lifting his hand, he saw that one brick stood out closer among the rest, and it had a strange engraving. An engraving of a crescent moon. Instinctively, he pulled on it.
 For a moment, nothing happened. Then a heavy thud sounded somewhere inside the wall. Stones scraped against stone. 
+
 The barrels nearest the wall trembled as the foundation slowly shifted inward. Dust shifted from the ceiling. A narrow opening appeared between the bricks, just wide enough for him to squeeze through. Cold air spilled from the passageway. It was dry, unlike the cellar air, and the smell reminded him of that of a book he had not opened in months. 
 Staring into the darkness, he stepped inside. The passageway sloped downward beneath the brewery. The walls were polished stone, different from the cobblestone that was used to form the cellar. Someone had spent years making this place.
+
 The deeper he went in, the louder his footsteps. Soon enough, the world above had quieted completely.
 Jorrin finally saw what must have been the end of the tunnel. Then, he stopped. 
+
 The tunnel opened into a chamber. It was larger than the cellar, maybe the entire brewery. Shelves covered the walls from floor to ceiling, filled with hundreds of books. Maps hung from wooden racks, scrolls sat bundled in leather cases, and tables overflowed with journals, instruments, sketches, and stacks of loose paper.
+
 Jorrin gaped at the sight. He could only stare. Books. Probably more than all that existed in the entirety of the lower terraces. 
+
 Slowly, he stepped farther into the room. The shelves were filled with things unlike anything he had ever seen before, besides maybe at Lukin’s. Glass tubes filled with cloudy liquid. Brass instruments covered in tiny markings. One shelf had nothing but numbered volumes, all labeled Compendiums: The Bestiary in what was a strangely familiar hand.
+
 Jorrin pulled one free. The book was heavier than expected. Opening it near the middle, he found page after page of illustrations. Strange beasts stared back at him from yellowed parchment. Some resembled animals he vaguely recognized. Others seemed to be out of this world. 
+
 One creature seemed nothing more than a black little lizard with wings on its back. “Maelidean Dragon,” the caption read. 
 Jorrin snorted and slid the book back into place. Another shelf held rolled parchments bundled together in a faded green ribbon. A small wooden plaque beneath them read:
 Botanic Surveys. What was a survey?
+
 Nearby hung dozens of sketches pinned to a board filled with scribbled notes. Some depicted plants growing from cliffsides, while others showed animals on grids standing beside handwritten measurements. 
 One sketch stood out to him. It seemed to be a map of some kind. It depicted an expanse of land surrounded by deep blue on one side. The caption beneath it read:
 Emeralus Coast.
 Coast? Jorrin leaned closer.
-	The blue was the same color as the rivers. But it couldn’t have been a river. This was too wide, stretching farther than any river he had ever seen. His eyes lingered a moment before he stepped back.
+
+The blue was the same color as the rivers. But it couldn’t have been a river. This was too wide, stretching farther than any river he had ever seen. His eyes lingered a moment before he stepped back.
 Slowly, his eyes drifted away from the sketch and back to the chamber. Everywhere he looked were signs that the people who used this room had been trying to… understand. 
 Catalogs, measurements, drawings, records… Questions.  These people were trying to understand the world. 
+
 Jorrin exhaled slowly. It made sense, in a way. Armadon was large, and the terraces were vast. The lower fields alone took days to cross fully. There were places, animals, and plants he’d probably never see. The reality was that he had known nothing of the world. 
+
 He had simply not gone far enough. His eyes drifted back toward the sketch for a moment before he forced himself to look away.
 Walking closer to the center of the chamber, there was a desk that sat beneath hanging lanterns. Ink bottles lined its edge, most dried shut. Maps were pinned across its surface, some so worn that their ink had faded. And at the very center, a single pile of paper lay perfectly flat.
 Jorrin lifted a sheet of paper from the top, careful not to leave any marks. The sheet seemed to have been unfolded. A letter of some sort. 
